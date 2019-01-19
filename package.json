@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,11 @@
   "bugs": {
     "url": "https://github.com/pixzels/credit-card-validator/issues"
   },
-  "homepage": "https://pixzels.github.io/credit-card-validator/",
+  "homepage": "https://pixzels.github.io/credit-card-validator",
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
