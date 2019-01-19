@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/pixzels/credit-card-validator/issues"
   },
-  "homepage": "https://github.com/pixzels/credit-card-validator#readme",
+  "homepage": "https://pixzels.github.io/credit-card-validator/",
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
   }
