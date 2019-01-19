@@ -1,0 +1,23 @@
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "description": "A simple Credit Card Validator",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixzels/credit-card-validator.git"
+  },
+  "author": "Raj Khare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixzels/credit-card-validator/issues"
+  },
+  "homepage": "https://github.com/pixzels/credit-card-validator#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
