@@ -2,11 +2,8 @@
   "name": "credit-card-validator",
   "version": "1.0.0",
   "description": "A simple Credit Card Validator",
-  "main": "index.html",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
-    "deploy": "gh-pages -d dist"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,9 +16,9 @@
   },
   "homepage": "https://pixzels.github.io/credit-card-validator",
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
-  },
-  "dependencies": {
-    "gh-pages": "^2.0.1"
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
