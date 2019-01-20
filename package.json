@@ -2,6 +2,7 @@
   "name": "credit-card-validator",
   "version": "1.0.0",
   "description": "A simple Credit Card Validator",
+  "main": "index.html",
   "scripts": {
     "build": "webpack --mode production"
   },
